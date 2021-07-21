@@ -10,7 +10,7 @@ class Step(ABC):
 
     # 建立抽象（method）,繼承時一定要寫出
     @abstractmethod
-    def process(self, data, inputs):
+    def process(self, data, inputs, utils):
         pass
 
 
